@@ -19,7 +19,7 @@ Available endpoints: `/planets` and `/planets/random`
 
 ## Requirements
 - Your app should have routes for **PlanetList, PlanetDetail, RandomPlanet and a Welcome Route.**
-- **PlanetList** should render all the planet names with a Link to the **PlanetDetail** component.
+- **PlanetList** should render all the planet names.
 - **PlanetDetail** should render the data for an individual planet's color and number of moons.
 - **RandomPlanet** should route to an endpoint `/planets/random` and render a random planet.
 - Welcome should be a welcome page for the user showing the Link to **PlanetList** and **RandomPlanet**.
