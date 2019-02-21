@@ -23,8 +23,11 @@ Available endpoints: `/planets` and `/planets/random`
 - **PlanetDetail** should render the data for an individual planet's color and number of moons.
 - **RandomPlanet** should route to an endpoint `/planets/random` and render a random planet.
 - Welcome should be a welcome page for the user showing the Link to **PlanetList** and **RandomPlanet**.
-- **Style the App**. This can be a great exercise in time management. Work on something you can do when other parts of your app are not working as expected. It is very easy to get into a rabbit hole with a specific task, so, manage your time wisely by tackling another task to reach an 'MVP'  
+- **Style the App**. This can be a great exercise in time management by working on a task when other parts of your app are not working as expected. It is very easy to get into a rabbit hole with a specific task, so, manage your time wisely by tackling another task to reach an 'MVP.'
 
+## Bonus
+- Create a form component to POST a planet in this APP!
+- Find an [npm library](https://www.npmjs.com/) you want to implement in your App. Be creative! Surprise me! Surprise yourself!
 
 ## Submission
 - A pull request by 11pm tonight
