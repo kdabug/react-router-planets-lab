@@ -8,7 +8,7 @@
 
 ![](https://media.giphy.com/media/RLV26ucdod4ek/giphy.gif)
 
-The base URL is: `https://wdi-nyc-planets-api.herokuapp.com`
+The base URL is: `https://wdi-nyc-planets-api.herokuapp.com`  
 Available endpoints: `/planets` and `/planets/random`
 
 ## Getting Started
@@ -19,7 +19,7 @@ Available endpoints: `/planets` and `/planets/random`
 ## Requirements
 - Your app should have routes for PlanetList, PlanetDetail, RandomPlanet and a Welcome Route.
 - PlanetList should render all the planet names with a Link to the PlanetDetail component.
-- PlanetDetail should render the data for an individual planet's color and num moons.
+- PlanetDetail should render the data for an individual planet's color and number of moons.
 - RandomPlanet should route to an endpoint `/planets/random` and render a random planet.
 - Welcome should be a welcome page for the user showing the Link to PlanetList and RandomPlanet.
 - Style the App.
