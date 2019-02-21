@@ -15,6 +15,7 @@ Available endpoints: `/planets` and `/planets/random`
 - Fork and clone this repo
 - Create a react app named planets
 - Install Axios and [React Router](https://www.npmjs.com/package/react-router-dom)
+- Create components, `PlanetList`, `PlanetDetail`, `RandomPlanet` and `Welcome`.
 
 ## Requirements
 - Your app should have routes for **PlanetList, PlanetDetail, RandomPlanet and a Welcome Route.**
@@ -22,8 +23,9 @@ Available endpoints: `/planets` and `/planets/random`
 - **PlanetDetail** should render the data for an individual planet's color and number of moons.
 - **RandomPlanet** should route to an endpoint `/planets/random` and render a random planet.
 - Welcome should be a welcome page for the user showing the Link to **PlanetList** and **RandomPlanet**.
-- Style the App.
+- **Style the App**. This can be a great exercise in time management. Work on something you can do when other parts of your app are not working as expected. It is very easy to get into a rabbit hole with a specific task, so, manage your time wisely by tackling another task to reach an 'MVP'  
+
 
 ## Submission
 - A pull request by 11pm tonight
-- A comment with your wins and comfort and completion levels.
+- A comment with your wins/struggles _AND_ comfort and completion levels.
