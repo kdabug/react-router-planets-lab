@@ -17,7 +17,7 @@ class App extends Component {
     super();
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.handleButton = this.handleButton.bind(this);
+    this.handleRandomButton = this.handleRandomButton.bind(this);
     this.addPlanet = this.addPlanet.bind(this);
     this.state = {
       planets: [],
@@ -44,7 +44,6 @@ class App extends Component {
 
   handleChange(e) {
     // e.preventDefault();
-
     const { name, value } = e.target;
     console.log("target", name);
     this.setState({

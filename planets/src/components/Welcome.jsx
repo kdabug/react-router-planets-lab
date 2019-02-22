@@ -2,7 +2,7 @@ import React from "react";
 
 const Welcome = () => {
   return (
-    <div>
+    <div className="welcome-container">
       <h1>Welcome to Planets</h1>
     </div>
   );
