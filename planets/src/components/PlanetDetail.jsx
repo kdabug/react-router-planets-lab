@@ -14,16 +14,17 @@ export default class PlanetDetail extends Component {
   }
 
   render() {
-    // const { planet } = this.props;
-    console.log(this.props);
+    const randomColor = Math.floor(Math.random() * 16777215).toString(16);
     return (
-      <div className="planet-detail">
-        <h3>{this.props.planet.name}</h3>
-        <button onClick={this.handleShowMoreButton}>Show More</button>
+      <div className="planet-detail" style={{ color: `#${randomColor}` }}>
+        <h2>{this.props.planet.name}</h2>
+        <button className="pretty-button" onClick={this.handleShowMoreButton}>
+          {this.state.showMore ? "Show Less" : "Show More"}
+        </button>
         {this.state.showMore && (
           <div className="more-details">
-            <h6>Number of Moons: {this.props.planet.num_moons}</h6>
-            <h6>Color: {this.props.planet.color}</h6>
+            <h3>Number of Moons: {this.props.planet.num_moons}</h3>
+            <h3>Color: {this.props.planet.color}</h3>
           </div>
         )}
       </div>

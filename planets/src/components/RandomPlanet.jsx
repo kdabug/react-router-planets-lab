@@ -4,7 +4,7 @@ export default props => {
   const { randomPlanet } = props;
 
   return (
-    <div className="planet-detail">
+    <div className="random-planet-detail">
       <h1>The current zaniest planet:</h1>
       <h5>{randomPlanet.name}</h5>
       <h6>Number of Moons: {randomPlanet.num_moons}</h6>
